@@ -1,0 +1,176 @@
+
+
+body{
+    background-color: rgba(231, 228, 228, 0.658);
+}
+
+.title{
+font-size: 70px;
+text-transform: capitalize;
+}
+
+.navbar{
+    background-color: white !important;
+    padding: 9px 100px;
+}
+
+.img{
+    width: 10px;
+    height: 10px;
+}
+
+.pic{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.tab{
+    position: absolute;
+    right: 600px;
+    gap: 10px;
+}
+.button{
+    display: flex;
+    gap: 20px;
+}
+.btn{
+     padding: 10px 32px;   
+     text-transform: capitalize;
+     
+}
+.btn-primary{
+    background-color: white;
+    border: 1px solid #ff7434;
+    color: #ff7434;
+}
+.btn-sec{
+    background-color: white;
+    border: 1px solid #ff7434;
+    color: #ff7434;
+}
+.khar{
+    background-color: #ff7434;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: #ff7434;
+    color: white;
+}
+.khar:hover{
+    background-color: white;
+    color: #ff7434;
+}
+
+.banner{
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.banner-item{
+    width: 530px;
+    margin: 150px 0 90px;
+    
+}
+
+.dropdown-toggle{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.banner-content .btn-danger:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.dropdown-toggle::after {
+    color: #ff7434;
+}
+
+.banner-content{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 410px 100px;
+}
+.effect{
+    color: #ff7434;
+}
+
+.nav-link,
+.btn{
+    font-size: 23px;
+}
+
+.icon{
+    color: #ff7434;
+    font-size: 35px;
+}
+.p-descrpt{
+    font-size: 18px;
+    font-family: volkhov;
+    display: flex;
+    text-align: center;
+}
+
+.fa-wallet{
+    font-size: 35px;
+    color: #4086F4;
+}
+
+.card{
+    border-color: transparent;
+    margin-bottom: 70px;
+}
+
+.card-item{
+    background-color: white;
+}
+
+.map-con{
+    color: #FFB60A;
+    font-size: 35px;
+}
+
+.span-ora{
+    color: #ff7434;
+}
+.breaka{
+ font-family: poppins;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 70px 0;
+}
+
+.breaka h1{
+  font-weight: 900;
+
+
+}
+
+.h1-bold{
+    font-weight: bold;
+}
+
+ .plane{
+    position: absolute;
+    top: 80px;
+    left: 1150px;
+    width: 210px;
+
+ }
+ 
